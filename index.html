@@ -7,7 +7,9 @@
     </head>
     <body ng-app="jovaniApp">
         <div class="container" ng-controller="MainCtrl">
-            <div class="jumbotron">Aquele teste maroto, manolinhosboy!</div>
+            <div class="jumbotron">
+                <h2>Aquele teste maroto, manolinhosboy!</h2>
+            </div>
             <form name="formulario" ng-submit="helloWorld()">
                 <div class="form-group" ng-class="{'has-error':formulario.nome.$invalid}">
                     <label for="nome" class="control-label">Nome</label>
