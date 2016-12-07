@@ -1,0 +1,12 @@
+{
+    "name": "angularzinho",
+    "description": "Um aplicativo bem bonito",
+    "version": "1.0.0",
+    "engines": {
+        "node": "4.6.2"
+    },
+    "dependencies": {
+        "angular": "^1.5.9",
+        "bootstrap": "^3.3.7"
+    }
+}
